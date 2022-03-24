@@ -115,8 +115,3 @@ jobs:
       - uses: matt-ball/newman-action@64419a64bd84915e081828373fb872be6def2712
         with:
           collection: arbit.postman_collection.json
-      
-      - name: Sleep for 1 min
-        uses: jakejarvis/wait-action@master
-        with:
-          time: '1m'
